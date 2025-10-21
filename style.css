@@ -1,0 +1,67 @@
+
+/* Formatação Global da Página*/
+* {
+    /* resetando os espaçamentos/preenchiementos */
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+  font-family:"DM Serif Text", serif;
+}
+
+header {
+    background-color: #D8D8C0;/*cor de fundo*/
+    padding: 2rem; /* preenchimento interno = 32px*/
+
+   /* propreidades de alinhamento */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* header fixo */
+    position: sticky; /*posicionamento fixo do header*/
+    left: 0; /*zerando a esquerda*/
+    top: 0; /*zerando ao topo*/
+    z-index: 999; /*eixo cartesiano/profundidade*/
+}
+
+/* ESTILIZAÇÃO DA LOGO */
+.logo-JK {
+    width: 8rem; /*largura responsiva da img*/
+    height: auto; /*o auto servirá como uma altura automática em relação a tela o navegador*/
+}
+
+.ul-list { /*aplicando formatação na UL*/
+    display: flex; /*colocando as LI lado a lado*/
+    gap: 10px; /*espaçamento entre as listas*/
+}
+
+.ul-list li a { /*removendo a estilização padrão da âncora*/
+text-decoration: none;
+color: black;
+
+}
+
+
+
+
+
+
+
+/* @media (max-width: 1000px) {
+  section {
+    background-image: url(imagem/BANNER-02.jpg);
+    
+    padding: 10rem;
+    
+  }
+}
+
+
+@media (max-width: 720px) {
+  section {
+    background-image: url(imagem/BANNER-03.jpg);
+    
+    padding: 10rem;
+    
+  }
+} */
