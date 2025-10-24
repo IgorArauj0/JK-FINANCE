@@ -43,25 +43,33 @@ color: black;
 
 
 
+/* section {
+  background-image: url(imagem/DESKTOP.jpg);
+   background-size: cover;
+   background-position: top;
+
+   padding: 13rem;
+   
+
+} */
 
 
 
-
-/* @media (max-width: 1000px) {
+ /* @media (max-width: 1000px) {
   section {
-    background-image: url(imagem/BANNER-02.jpg);
-    
-    padding: 10rem;
-    
-  }
-}
-
-
-@media (max-width: 720px) {
-  section {
-    background-image: url(imagem/BANNER-03.jpg);
+    background-image: url(imagem/TABLET.jpg);
     
     padding: 10rem;
     
   }
 } */
+
+
+/* @media (max-width: 720px) {
+  section {
+    background-image: url(imagem/MOBILE.jpg);
+    
+    padding: 8.9rem;
+    
+  }
+}  */
