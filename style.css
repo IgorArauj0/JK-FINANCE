@@ -75,11 +75,16 @@ header {
 
 
  @media (max-width: 500px) {
-  section {
-    background-image: url(imagem/MOBILE.jpg);
-    padding: 10rem;
+  .section-01 {
+    background-image: url(imagem/TABLET.jpg);
+    padding: 8rem;
    
   }
+  nav {
+    /* Aqui estamos ocultando o menu para versões MOBILIE */
+    display: none; /*Responsável por ocultar o menu ou qualquer outra propriedade*/
+  }
+
 }   
 
 
