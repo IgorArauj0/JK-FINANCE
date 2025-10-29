@@ -53,7 +53,6 @@ header {
 }
 
 
-
 .section-01 {
   background-image: url(imagem/DESKTOP.jpg);
   background-size: cover;
@@ -61,18 +60,6 @@ header {
   padding: 13rem;
 
 }
-
-
-
-/* @media (max-width: 1000px) {
-  section {
-    background-image: url(imagem/TABLET.jpg);
-    
-    padding: 10rem;
-    
-  }
-} */
-
 
  @media (max-width: 500px) {
   .section-01 {
@@ -87,6 +74,15 @@ header {
 
 }   
 
+
+/* @media (max-width: 1000px) {
+  section {
+    background-image: url(imagem/TABLET.jpg);
+    
+    padding: 10rem;
+    
+  }
+} */
 
  /* @media (max-width: 500px) {
   header {
