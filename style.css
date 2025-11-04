@@ -204,7 +204,7 @@ header {
 
   header {
     padding: 1.5rem;
-    justify-content: space-between;
+   
   }
 
   .section-01 {
@@ -256,6 +256,8 @@ header {
 
 
 
+
+  
 
   .menu-desktop {
     /* Aqui estamos ocultando o menu para versões MOBILIE */
