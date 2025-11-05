@@ -179,6 +179,46 @@ header {
 }
 
 
+.section-03 {
+  padding: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.batata {
+   width: 18rem;
+   height: 18rem;
+   background-color: rgba(128, 128, 128, 0.524);
+}
+
+.div-02 {
+  background-image: url(imagem/BANNER-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MENU MOBILE */
 
 /* Ícone do menu (hambúrguer) */
