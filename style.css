@@ -260,6 +260,10 @@ header {
   flex-wrap: wrap;
 }
 
+.section-04 div {
+  margin-top: -4rem;
+}
+
 .input-email { /*estou estilizando o input que recebe o e-mail*/
   padding: 0.8rem; /*preenchimento interno*/
   width: 23rem; /*largura*/
@@ -282,6 +286,73 @@ header {
   cursor: pointer;
 }
 
+
+/* FOOTER */
+
+footer {
+    background-color: #000000b5;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.social-media {
+    padding: 1.5rem;
+}
+
+.social-media p {
+  color: white;
+}
+
+.social-media i {
+    font-size: 2em;
+    color: white;
+    transition: 0.8s;
+    margin: 0.5em;
+}
+
+.social-media i:hover {
+    font-size: 2.1em;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+.line {
+    width: 60%;
+    margin: 0.5em auto;
+
+}
+
+.line-strong {
+    margin: 2rem auto;
+    width: 70%;
+
+}
+
+.div-list ul li {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.div-list ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.407);
+    transition: 0.8s;
+}
+
+.div-list ul li a:hover {
+    color: rgba(255, 255, 255, 0.552);
+
+}
 
 
 
@@ -366,6 +437,7 @@ header {
     max-width: 10rem;
     margin-top: 1rem;
   }
+  
 
 
 
