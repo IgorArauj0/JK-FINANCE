@@ -241,13 +241,35 @@ header {
 
 
 .section-00 {
-  padding: 8rem;
-  background-image: url(imagem/gemini.png);
+  padding: 10rem;
+  background-image: url(imagem/building-9682225_1280.jpg);
   background-position: center;
   
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.section-00 button {
+  width: 8rem;
+  /*largura*/
+  background-color: rgb(36, 36, 83);
+  /*cor de fundo*/
+  color: white;
+  /*cor da letra*/
+  border: none;
+  /*removendo a borda padrão*/
+  padding: 0.5rem;
+  /*preenchimento interno do botão*/
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.section-00 button:hover {
+  background-color: rgba(36, 36, 83, 0.627);
+}
 
 
 .section-04 {
@@ -387,13 +409,13 @@ footer {
 
   header {
     padding: 1rem;
-    margin-right: -5rem;
+    /*margin-right: -5rem;*/
     /*correção menu navBar*/
   }
 
   .section-01 {
-    background-image: url(imagem/TABLET.jpg);
-    padding: 8rem;
+    background-image: url(imagem/TABLET.jpg); /*trocando a img para telas menores*/
+    padding: 8rem; /*diminuindo o preenchimento da section*/
 
   }
 
@@ -403,7 +425,8 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 4rem 1rem; /*primeiro valor é o padding superior/inferior
+    segundo valor é o padding left/right*/
   }
 
   /* Centraliza o texto do título e parágrafo */
