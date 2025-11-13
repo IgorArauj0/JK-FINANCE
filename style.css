@@ -242,6 +242,7 @@ header {
 
 .section-00 {
   padding: 10rem;
+  background-attachment: fixed;
   background-image: url(imagem/building-9682225_1280.jpg);
   background-position: center;
   
