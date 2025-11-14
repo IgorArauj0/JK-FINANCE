@@ -21,12 +21,8 @@ menuBtn.addEventListener('click', () => {
   navMenu.classList.toggle('show');
   // classList.toggle() -> adiciona a classe se ela não existir; remove se já existir.
 
-  // Alterna a classe "active" no botão do menu (usada para animações ou estados visuais).
-  menuBtn.classList.toggle('active');
 
-  // ----------------------------------------------------------------
   // Troca o ícone (de hambúrguer para "X" e vice-versa), dependendo do estado atual.
-
   // Verifica se o ícone atual tem a classe "fa-bars" (ícone de hambúrguer)
   if (menuIcon.classList.contains('fa-bars')) {
     // classList.contains() -> verifica se o elemento contém uma classe específica (retorna true ou false).
@@ -55,3 +51,8 @@ menuBtn.addEventListener('click', () => {
 //FAMÍLIA DE FONTES
 //MÍNIMO 2 PÁGINAS TODAS RESPONSIVAS + BÔNUS POR PÁGINAS
 //OBTER JAVASCRIPT NO PROJETO
+
+
+//
+
+

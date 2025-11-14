@@ -191,7 +191,7 @@ header {
 .batata {
   width: 25%;
   /*largura para as duas caixas*/
-  height: 18rem;
+  height: 20rem;
   /*altura para as duas caixas*/
   background-color: rgba(128, 128, 128, 0.524);
   /*cor fundo*/
@@ -390,8 +390,7 @@ footer {
 .menu-btn {
   font-size: 2rem;
   cursor: pointer;
-  display: none;
-  /* só aparece no mobile */
+  display: none; /* só aparece no mobile */
 }
 
 
@@ -479,7 +478,7 @@ footer {
     /*tornando o menuHamburger Visível*/
   }
 
-
+/* MENU VERTICAL */
   .nav-menu {
     position: absolute;
     top: -30rem;
@@ -495,11 +494,38 @@ footer {
     align-items: center;
   }
 
-  .show {
+   .show {
     top: 90px;
     /* desce suavemente quando é ativado */
     left: -2rem;
   }
+
+
+
+/* MENU HORIZONTAL */
+
+/* .nav-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;escondido fora da tela 
+  /* width: 70%; tamanho da gaveta 
+  /* height: 130vh;
+  background-color: #D8D8C0;
+  transition: left 0.3s ease-in-out; animação lateral 
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999; 
+}
+  */ 
+
+/* Quando o JS adicionar a classe .show 
+.show {
+  left: 0; /* entra na tela 
+} */
+
+
 
   .ul-list2 {
     flex-direction: column;
