@@ -377,7 +377,17 @@ footer {
 
 }
 
-
+.auto-type {
+  padding: 1.5rem;
+   font-size: 1.5rem;
+  /*tamanho da fonte*/
+  font-weight: 800;
+  /*peso da fonte*/
+  text-transform: uppercase;
+  /*tornando o texto em caixa alta*/
+  margin-bottom: 2rem;
+  /*margem inferior do título*/
+}
 
 
 

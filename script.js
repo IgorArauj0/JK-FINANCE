@@ -56,3 +56,10 @@ menuBtn.addEventListener('click', () => {
 //
 
 
+const typed = new Typed (".auto-type",{
+    strings: ["JK FINANCE", "INVESTINDO NOS SEUS SONHOS"],
+    typeSpeed: 120,
+    backSpeed: 200,
+    loop: true,
+    showCursor: false  // Oculta o cursor de digitação
+} );
