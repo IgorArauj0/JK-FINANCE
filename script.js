@@ -58,8 +58,39 @@ menuBtn.addEventListener('click', () => {
 
 const typed = new Typed (".auto-type",{
     strings: ["JK FINANCE", "INVESTINDO NOS SEUS SONHOS"],
-    typeSpeed: 120,
-    backSpeed: 200,
+    typeSpeed: 80,
+    backSpeed: 60,
+    backDelay: 1200,      // pausa antes de apagar
     loop: true,
     showCursor: false  // Oculta o cursor de digitação
 } );
+
+
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,   // mostra 3 por vez
+  spaceBetween: 20,   // espaçamento entre elas
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  // Responsividade
+  breakpoints: {
+    0:   { slidesPerView: 1 },   // mobile
+    600: { slidesPerView: 2 },   // tablet
+    900: { slidesPerView: 3 }    // desktop
+  }
+});
+
+
+
+
