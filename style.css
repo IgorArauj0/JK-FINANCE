@@ -513,7 +513,7 @@ footer {
   .menu-btn {
     display: block;
     /*tornando o menuHamburger Visível*/
-    margin-right: -3rem;
+    margin-right: -3rem; /*posicionamento do menu*/
   }
 
 /* MENU VERTICAL */
