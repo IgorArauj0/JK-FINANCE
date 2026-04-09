@@ -51,12 +51,13 @@ header {
   color: black;
   padding: 0.8rem;
 }
-
+/* Ao passar o mouse acontecer uma ação */
 .ul-list li a:hover {
   transition: 0.8s;
   border-bottom: 2px solid black;
 }
 
+/* FIM DA ESTILIZAÇÃO DO HEADER */
 
 .section-01 {
   background-image: url(imagem/DESKTOP.jpg);
