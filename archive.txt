@@ -1,0 +1,30 @@
+PASSOS PARA CONSTRUÇÃO DO MENU MOBILE:
+
+1 - Criar a estrutura HTML com dois menus distintos
+
+Dentro do seu <header>, coloque quatro blocos: 1- a logo, 2 - o botão hambúrguer (com id="menu-btn" e um <i class="fa-solid fa-bars"> dentro), 3 - Menu mobile (com id="nav-menu"), 4 - Menu desktop. 
+
+
+2 - No CSS base (fora do @media): ocultar o Ícone (hamburguer) e o menu mobile usando o display:none
+
+Esta é a regra padrão, que vale para todos os tamanhos de tela. No desktop, o icone e o menu mobile não devem existir visualmente
+
+
+3 - Dentro do @media: ocultar o menu desktop
+
+Na versão mobile, inverta o jogo: o menu desktop some. No projeto JK Finance, o container .list-header (que envolve o .menu-desktop) é quem recebe o display: none — assim o espaço inteiro desaparece.
+
+
+4 -  Dentro do @media: tornar visível o botão hambúrguer
+
+Ainda dentro do mesmo @media, mostre o botão hambúrguer e posicione-o corretamente dentro do header.
+
+
+5 - Dentro do @media: estilizar o menu mobile e criar a classe .show
+
+O menu mobile ganha display: flex e fica visível. A técnica usada é mover o menu para fora da tela via top: -30rem e trazê-lo de volta com top: 90px quando a classe .show é adicionada. A transition em top cria a animação suave.
+
+
+6 - JavaScript: conectar o clique ao CSS
+
+O JS não cria nenhum estilo — ele apenas adiciona e remove a classe .show que o CSS já está esperando. 
